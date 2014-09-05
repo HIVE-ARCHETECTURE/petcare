@@ -90,32 +90,31 @@ var value2 = document.getElementById('hemail').value;
 var value3 = document.getElementById('hwebsite').value;
 var value4 = document.getElementById('hsubject').value;
 var value5 = document.getElementById('hmsg').value;
-if (value == '' && value2 == '' && value3 == '' && value4 == '' && value5 == ''){
-    alert('Please enter your details!');
-}
-else if ((value == 'the' || value == 'The') && (value2 == 'illuminati' || value2 == 'Illuminati') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
+if ((value == 'the' || value == 'The') && (value2 == 'illuminati' || value2 == 'Illuminati') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
   	error3()
 }
-else if ((value == 'the' || value == 'The') && (value2 == 'vanir' || value2 == 'Vanir') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
-  	error()
-} 
+//else if ((value == 'the' || value == 'The') && (value2 == 'vanir' || value2 == 'Vanir') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == //'Again')){
+//  	error()
+//} 
 else {
   	error2()
 }" class="submit" type="button" id="submit">Submit</button>
 
 <script>
 function error3(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center><a href='fbi.html'><button class='submit'>Illuminate Me</button></a></center>";
-document.getElementById('contactus3').innerHTML = "";
-document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png'/></a>";
+document.getElementById('all').innerHTML = "<iframe src='warning.html' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
+//document.getElementById('all').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p><br/><a href='warning.html'><button class='submit'>Illuminate Me</button></a></center>";
+//document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
+//document.getElementById('contactus2').innerHTML = "<center><a href='fbi.html'><button class='submit'>Illuminate Me</button></a></center>";
+//document.getElementById('contactus3').innerHTML = "";
+//document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png'/></a>";
 }
-function error(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center><a href='https://3eadc3f7ce5718fadba312760b9374404d795559.googledrive.com/host/0BwEygq7Jv1FiQWhlQjliNFg3VUU/index.html'><button class='submit'>Enter The Vanaheimr</button></a></center>";
-document.getElementById('contactus3').innerHTML = "";
-document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png'/></a>";
-}
+//function error(){
+//document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
+//document.getElementById('contactus2').innerHTML = "<center><a href='https://3eadc3f7ce5718fadba312760b9374404d795559.googledrive.com/host/0BwEygq7Jv1FiQWhlQjliNFg3VUU/index.html'><button class='submit'>Enter //The Vanaheimr</button></a></center>";
+//document.getElementById('contactus3').innerHTML = "";
+//document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png'/></a>";
+//}
 function error2(){
 document.getElementById('contactus').innerHTML = "<center><img src='https://dl.dropboxusercontent.com/u/89017432/thanks.png'></p></center>";
 document.getElementById('contactus2').innerHTML = "<center>Message Sent! We will try to reply to your email as soon as possible. We thank you for your interest!</center>";
