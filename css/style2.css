@@ -98,6 +98,14 @@ span.order{
 	padding-left: 30px;
 	color:#fff;
 }
+span.tiporder{
+	font-weight: normal;
+	font-style: italic;
+	font-size:1.3em;
+	line-height: 10px;
+	padding-left: 100px;
+	color:#fff;
+}
 h5.ph-no{
 	color:#fff;
 	font-family: 'Roboto Condensed', sans-serif;
