@@ -87,9 +87,9 @@ ul.follow_icon{
 .tip {
 	float: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-left:100px;
+	margin-left:75px;
 	margin-top:20px;
-	line-height: 15px;
+	line-height: 5px;
 }
 span.order{
 	font-weight: normal;
