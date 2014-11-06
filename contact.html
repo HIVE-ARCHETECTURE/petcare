@@ -12,6 +12,7 @@
 <link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/jquery-p.js">
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
@@ -83,47 +84,20 @@
 	                </div>
 	                <div>
 	               		<button onclick="var value = document.getElementById('hname').value;
-var value2 = document.getElementById('hemail').value;
-var value3 = document.getElementById('hwebsite').value;
-var value4 = document.getElementById('hsubject').value;
-var value5 = document.getElementById('hmsg').value;
-if ((value == 'vladimir' || value == 'Vladimir') && (value2 == 'putin' || value2 == 'Putin') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
-  	VladimirPutin()
-} else if ((value == 'putin' || value == 'Putin') && (value2 == 'deserves' || value2 == 'Deserves') && (value3 == 'a' || value3 == 'A') && (value4 == 'bloody' || value4 == 'Bloody') && (value5 == 'detention' || value5 == 'Detention')){
-  	RedSlip()
-} else if ((value == 'The' || value == 'the') && (value2 == 'illuminati' || value2 == 'Illuminati') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
-  	SendEmail()
-} else {
-  	SendEmail()
-}
-" class="submit" type="button" id="submit">Submit</button>
+						 var value2 = document.getElementById('hemail').value;
+						 var value3 = document.getElementById('hwebsite').value;
+						 var value4 = document.getElementById('hsubject').value;
+						 var value5 = document.getElementById('hmsg').value;
+						 if ((value == 'vladimir' || value == 'Vladimir') && (value2 == 'putin' || value2 == 'Putin') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
+						   	VladimirPutin()
+						 } else if ((value == 'putin' || value == 'Putin') && (value2 == 'deserves' || value2 == 'Deserves') && (value3 == 'a' || value3 == 'A') && (value4 == 'bloody' || value4 == 'Bloody') && (value5 == 'detention' || value5 == 'Detention')){
+						   	RedSlip()
+						 } else if ((value == 'The' || value == 'the') && (value2 == 'illuminati' || value2 == 'Illuminati') && (value3 == 'will' || value3 == 'Will') && (value4 == 'rule' || value4 == 'Rule') && (value5 == 'again' || value5 == 'Again')){
+						   	SendEmail()
+						 } else {
+						   	SendEmail()
+						 }" class="submit" type="button" id="submit">Submit</button>
 
-<script>
-function EnterPutinville(){
-document.getElementById('all').innerHTML = "<iframe src='warning.html' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
-}
-
-function VladimirPutin(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://3.bp.blogspot.com/-7dSqHX-zYJM/Uv0jwQwdFDI/AAAAAAAAAvE/kzOD9LT58_o/s1600/Vladimir_Putin_Bio.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center><button class='submit' onclick='EnterPutinville()'>Enter Putinville</button></center>";
-document.getElementById('contactus3').innerHTML = "";
-document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
-}
-
-function SendEmail(){
-document.getElementById('contactus').innerHTML = "<center><img src='https://dl.dropboxusercontent.com/u/89017432/thanks.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center>Message Sent! We will try to reply to your email as soon as possible. We thank you for your interest!</center>";
-document.getElementById('contactus3').innerHTML = "";
-document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
-}
-
-function RedSlip(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center><button><a href='https://drive.google.com/file/d/0BwEygq7Jv1FiM2hfWDk3UnFWd0U/view?usp=sharing'>Illuminate Me</a></button></center>";
-document.getElementById('contactus3').innerHTML = "";
-document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
-}
-</script>
 	                </div>
                </form>
             </div>
