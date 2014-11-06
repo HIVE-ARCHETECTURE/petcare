@@ -1,31 +1,30 @@
-<!--esign baytsrapndex
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Hive Pet Care</title>
 <link id="pagestyle" href="css/style2.css" rel="stylesheet" type="text/css" media="all" />
 
-<!--script>
-var cssstyle = Math.floor((Math.random() * 10) + 1);
-if (cssstyle > 5) {
-    document.getElementById('pagestyle').setAttribute('href', 'css/style2.css');
-}
-if (cssstyle < 6) {
-    document.getElementById('pagestyle').setAttribute('href', 'css/style3.css');
-}
-</script-->
-
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKZMDGCmTAzQpkwMZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkwMJqZMDGKmTAzspkwM/6ZMDPmmTAwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmTAxMpkwMz6ZMDPimTAz6pkwM/6ZMDP+mTAz/pkwMHKZMDBymTAwUAAAAAAAAAAAAAAAAAAAAAAAAAACmTAyQpkwM/aZMDP+mTAz/pkwM/6ZMDP+mTAz/pkwM/KZMDDSmTAzlpkwM/6ZMDL2mTAwLAAAAAAAAAAAAAAAApkwMiKZMDP+mTAz/pkwM/6ZMDP+mTAz/pkwM/6ZMDNumTAwhpkwM/qZMDP+mTAz/pkwMigAAAAAAAAAAAAAAAKZMDASmTAyOpkwM/6ZMDP+mTAz/pkwM/6ZMDP+mTAyLpkwMAaZMDKSmTAz/pkwM/6ZMDLYAAAAAAAAAAAAAAAAAAAAAAAAAAKZMDDSmTAyvpkwM4aZMDOymTAzdpkwMQKZMDAOmTAwJpkwMPqZMDHqmTAwgAAAAAAAAAAAAAAAAAAAAAKZMDEemTAzJpkwMUKZMDBWmTAwjpkwMFgAAAACmTAxjpkwM0KZMDJCmTAwHAAAAAAAAAAAAAAAAAAAAAAAAAACmTAympkwM/6ZMDPOmTAwKpkwMI6ZMDDYAAAAApkwMw6ZMDP+mTAz/pkwMuaZMDAIAAAAAAAAAAAAAAAAAAAAApkwM1KZMDP+mTAz/pkwMHaZMDJemTAz2pkwMiqZMDFymTAz/pkwM/6ZMDP+mTAxQAAAAAAAAAAAAAAAAAAAAAKZMDKmmTAz/pkwM3KZMDBOmTAzFpkwM/6ZMDP2mTAwnpkwMn6ZMDP6mTAz/pkwMbwAAAAAAAAAAAAAAAAAAAACmTAwepkwMyqZMDH6mTAwCpkwMtaZMDP+mTAz/pkwMgwAAAACmTAwmpkwMUqZMDAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKZMDE2mTAz/pkwM/6ZMDG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmTAwBpkwMeKZMDLGmTAwFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP9/AAD+PwAA8D8AAMAjAADAIQAA4CEAAPh/AAD35wAA48MAAOIjAADiIwAA9h8AAP8/AAD/vwAA//8AAA==" rel="icon" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-<!--script src="https://3eadc3f7ce5718fadba312760b9374404d795559.googledrive.com/host/0BwEygq7Jv1FiQWhlQjliNFg3VUU/konami.js"></script>
-<script>
-var easter_egg = new Konami('https://3eadc3f7ce5718fadba312760b9374404d795559.googledrive.com/host/0BwEygq7Jv1FiQWhlQjliNFg3VUU/index.html');
-</script--> 
+<!--slider-->
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+<!--light-box-->
+<script type="text/javascript" src="js/jquery.lightbox.js"></script>
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
+	<script type="text/javascript">
+		$(function() {
+			$('.gallery a').lightBox();
+		});
+   </script>   
 </head>
 <body>
 <div class="header">
@@ -34,10 +33,9 @@ var easter_egg = new Konami('https://3eadc3f7ce5718fadba312760b9374404d795559.go
 	        <div class="logo">
 				<a href="index.html"><img src="https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png" alt=""/></a>
 			</div>
-			<div class="phone" id="phone">
-
+			<div class="phone">
 				<span class="order">Call us:</span><br>
-				<h5 class="ph-no">+02 6259 2139</h5>		
+				<h5 class="ph-no">+61 410 098 687</h5>		
 			</div>
 			<div class="clear"></div> 
 	    </div>
@@ -47,22 +45,22 @@ var easter_egg = new Konami('https://3eadc3f7ce5718fadba312760b9374404d795559.go
 		<div id="cssmenu">
 			 <ul>
 			   <li><a href="index.html"><span>Home</span></a></li>
-			   <li><a href="index.html#about"><span>About</span></a></li>
-			   <li class="has-sub"><a href="index.html#services"><span>Services</span></a>
+			   <li><a href="about.html"><span>About</span></a></li>
+			   <li class="has-sub"><a href="#"><span>Services</span></a>
 			      <ul>
 			         <li class="has-sub"><a href="food.html"><span>Food</span></a></li>
 			         <li class="active"><a href="grooming.html"><span>Grooming</span></a></li>
 				 <li class="has-sub"><a href="kennels.html"><span>Kennels</span></a></li>
-
 			      </ul>
 			   </li>
-			   <li><a href="contact.html"><span>Contact</span></a></li>
+			   <li><a href="membership.html"><span>Membership</span></a></li>
+			   <li class="last"><a href="contact.html"><span>Contact</span></a></li>
 			</ul>
 		</div>
 		<div class="clear"></div> 
 	  </div>
    </div>
-</div>                                  
+</div>                     
  <div class="main">
  	<div class="top-box">
 	  <div class="wrap">
