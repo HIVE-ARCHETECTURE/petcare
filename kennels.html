@@ -68,7 +68,7 @@
 			 <div  id="contactus" class="intro">
                 <h2 class="title">Book A Kennel!</h2>
                 <center><img src="http://www.timber-sheds.com.au/shop/images/source/Bluey_-_Cedar_dog_kennel.png" width="400"></center>
-                <h3 class="subtitle">Simply enter your name, email and preferred date and time for a free quote!</h3>
+                <h3 class="subtitle">Our award winning kennel services are favoured among many pet enthusiasts, including Maksimillian Andreevich, himself!<br/>We promise to care for your pets as if the were our own, treating them like family. We will walk, feed and play with them daily!<br/>Simply enter your name, email and preferred date and time for a free quote!</h3>
         	 </div><div id="contactus2"></div>
 			 <form id="contactus3">
 					<div class="to">
@@ -80,24 +80,17 @@
 			<input type="time" autocomplete="off" class="text" id="hsubject" value="Preferred Time" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Preferred Time';}" style='margin-left: 2px'>
 					</div>
 					<div class="text">
-	                   <textarea value="Additional Notes:" id="hmsg"  autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Additional Notes';}">Additional Notes:</textarea>
+	                   <textarea value="Additional Notes and Special Requirements:" id="hmsg"  autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Additional Notes';}">Additional Notes:</textarea>
 	                </div>
 	                <div>
-	               		<button onclick="var value = document.getElementById('hname').value;
-var value2 = document.getElementById('hemail').value;
-var value3 = document.getElementById('hwebsite').value;
-var value4 = document.getElementById('hsubject').value;
-var value5 = document.getElementById('hmsg').value;
-error()
-" class="submit" type="button" id="submit">Submit</button>
-
-<script>
-function error(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://www.vippetfoods.com.au/Uploads/dog%20cat%20scratching.jpg'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center>Thank you! Your will send you a confirmation email within 12 hours! Thank you for using Hive Pet Care!</center>";
-document.getElementById('contactus3').innerHTML = "";
-}
-</script>
+	               	<button onclick="error()" class="submit" type="button" id="submit">Submit</button>
+			<script>
+				function error(){
+					document.getElementById('contactus').innerHTML = "<center><img src='http://www.vippetfoods.com.au/Uploads/dog%20cat%20scratching.jpg'></p></center>";
+					document.getElementById('contactus2').innerHTML = "<center>Thank you! Your will send you a confirmation email within 12 hours! Thank you for using Hive Pet Care!</center>";
+					document.getElementById('contactus3').innerHTML = "";
+				}
+			</script>
 	                </div>
                </form>
             </div>
