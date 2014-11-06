@@ -68,36 +68,39 @@
 			 <div  id="contactus" class="intro">
                 <h2 class="title">Book A Grooming!</h2>
                 <center><img src="https://www.petbuddiespetcare.com/images/PetGroomingCategory.gif" width="400"></center>
-                <h3 class="subtitle">Simply enter your name, email and preferred date and time for a free quote!</h3>
-        	 </div><div id="contactus2"></div>
+                <h3 class="subtitle">Our award winning grooming services are favoured among many pet enthusiasts, including Maksimillian Andreevich, himself!<br/>We promise to care for your pets as if the were our own, treating them like family. We will give your pet a pamper of a lifetime!<br/>
+             
+                Simply enter your name, email and preferred date and time for a free quote!<br/><br/>
+        	General Pricing:<br/>
+        	Dogs: $60<br/>
+        	Cats: $50<br/>
+        	Rodents: $10<br/>
+        	Lions: $850<br/>
+        	Other: Contact Us<br/>
+        	</h3>
+        		
+        	</div><div id="contactus2"></div>
 			 <form id="contactus3">
 					<div class="to">
                      	<input type="text" class="text" id="hname"  autocomplete="off" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
 					 	<input type="text" autocomplete="off" class="text" id="hemail" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left: 10px">
 					</div>
 					<div class="to">
-                     	<input type="date" class="text" autocomplete="off" value="Preferred Date" id="hwebsite" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Preferred Date';}">
-					 	<input type="time" autocomplete="off" class="text" id="hsubject" value="Preferred Time" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Preferred Time';}" style='margin-left: 2px'>
+                     	<input type="text"  autocomplete="off" placeholder="Preferred Date" value="Preferred Date" id="hwebsite" onfocus="(this.type='date')" onblur="if (this.value == '') {this.value = 'Preferred Date';}">
+			<input type="text" autocomplete="off" id="hsubject" value="Preferred Time" onfocus="(this.type='time')" onblur="if (this.value == '') {this.value = 'Preferred Time';}" style='margin-left: 10px'>
 					</div>
 					<div class="text">
-	                   <textarea value="Additional Notes:" id="hmsg"  autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Additional Notes';}">Additional Notes:</textarea>
+	                   <textarea value="Additional Notes and Special Requirements:" id="hmsg"  autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Additional Notes and Special Requirements:';}">Additional Notes and Special Requirements:</textarea>
 	                </div>
 	                <div>
-	               		<button onclick="var value = document.getElementById('hname').value;
-var value2 = document.getElementById('hemail').value;
-var value3 = document.getElementById('hwebsite').value;
-var value4 = document.getElementById('hsubject').value;
-var value5 = document.getElementById('hmsg').value;
-error()
-" class="submit" type="button" id="submit">Submit</button>
-
-<script>
-function error(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://www.takeyourdog.com/images/v2/home/feature-img-employment.png'></p></center>";
-document.getElementById('contactus2').innerHTML = "<center>Thank you! Your will send you a confirmation email within 12 hours! Thank you for using Hive Pet Care!</center>";
-document.getElementById('contactus3').innerHTML = "";
-}
-</script>
+	               	<button onclick="error()" class="submit" type="button" id="submit">Submit</button>
+			<script>
+				function error(){
+					document.getElementById('contactus').innerHTML = "<center><img src='http://www.takeyourdog.com/images/v2/home/feature-img-employment.png'></p></center>";
+					document.getElementById('contactus2').innerHTML = "<center>Thank you! Your will send you a confirmation email within 12 hours! Thank you for using Hive Pet Care!</center>";
+					document.getElementById('contactus3').innerHTML = "";
+				}
+			</script>
 	                </div>
                </form>
             </div>
