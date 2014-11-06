@@ -64,6 +64,10 @@ a:active {color:#FFFFFF;}  /* selected link */
 .logo {
 	float:left;
 }
+th, td {
+    padding: 5px;
+    text-align: center;
+}
 ul.follow_icon{
 	float:right;
 }
