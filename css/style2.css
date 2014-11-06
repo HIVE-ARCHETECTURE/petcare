@@ -88,14 +88,14 @@ ul.follow_icon{
 	float: center;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-left:100px;
-	margin-top:20px;
-	line-height: 15px;
+	margin-top:50px;
+	line-height: 10px;
 }
 span.order{
 	font-weight: normal;
 	font-style: italic;
 	font-size:1.3em;
-	line-height: 10px;
+	line-height: 15px;
 	padding-left: 30px;
 	color:#fff;
 }
