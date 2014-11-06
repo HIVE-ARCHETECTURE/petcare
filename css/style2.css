@@ -103,8 +103,9 @@ span.tiporder{
 	font-weight: normal;
 	font-style: italic;
 	font-size:1.3em;
-	line-height: 10px;
+	line-height: 15px;
 	padding-left: 250px;
+	padding-top: 50px;
 	color:#fff;
 }
 h5.ph-no{
