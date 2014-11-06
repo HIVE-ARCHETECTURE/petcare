@@ -88,7 +88,8 @@ ul.follow_icon{
 	float: center;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-left:100px;
-	line-height: 10px;
+	margin-top:20px;
+	line-height: 15px;
 }
 span.order{
 	font-weight: normal;
