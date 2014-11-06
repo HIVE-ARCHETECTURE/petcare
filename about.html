@@ -12,6 +12,7 @@
 <link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/tipoftheday.js">
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
@@ -32,6 +33,10 @@
 	   <div class="header-top">	
 	        <div class="logo">
 				<a href="index.html"><img src="https://dl.dropboxusercontent.com/u/89017432/hivepetcare.png" alt=""/></a>
+			</div>
+			<div class="tip">
+				<span class="tiporder">Tip of the Day:
+				<script>document.write(r_tip[i]);</script></span>
 			</div>
 			<div class="phone">
 				<span class="order">Call us:</span><br>
