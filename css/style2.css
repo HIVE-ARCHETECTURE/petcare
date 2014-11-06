@@ -87,7 +87,7 @@ ul.follow_icon{
 .tip {
 	float: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-left:75px;
+	margin-left:50px;
 	margin-top:20px;
 }
 span.order{
@@ -103,7 +103,7 @@ span.tiporder{
 	font-style: italic;
 	font-size:1.3em;
 	line-height: 10px;
-	padding-left: 250px;
+	padding-left: 200px;
 	padding-top: 50px;
 	color:#fff;
 }
