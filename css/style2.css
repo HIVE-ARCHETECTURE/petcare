@@ -84,6 +84,12 @@ ul.follow_icon{
 	margin:20px 0 0px 0px;
 	line-height: 15px;
 }
+.phone {
+	float: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin:20px 0 0px 0px;
+	line-height: 15px;
+}
 span.order{
 	font-weight: normal;
 	font-style: italic;
