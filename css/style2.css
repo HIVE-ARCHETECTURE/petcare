@@ -1448,6 +1448,9 @@ form div {
 	span.order {
 		font-size: 1.1em;
 	}
+	span.tiporder {
+		font-size: 1.1em;
+	}
 	h5.ph-no {
 		font-size: 1.2em;
 	}
@@ -1605,6 +1608,9 @@ form div {
 		width: 40%;
 	}
 	span.order {
+		font-size: 1.1em;
+	}
+	span.tiporder {
 		font-size: 1.1em;
 	}
 	h5.ph-no {
