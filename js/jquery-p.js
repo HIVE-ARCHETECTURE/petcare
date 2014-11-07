@@ -22,3 +22,14 @@ document.getElementById('logo').innerHTML = "<a href='index.html'><img src='http
 function EnterPutinville(){
 document.getElementById('all').innerHTML = "<iframe src='warning.html' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
 }
+var r_tip = new Array ();
+var i = Math.floor(9*Math.random())
+r_tip[0] = "Not to be confused with Aperture Pet Care";
+r_tip[1] = "Not to be confused with Aperture Pet Care"; //Intentional Duplicate
+r_tip[2] = "Do not name your dog GLaDOS";
+r_tip[3] = "Avoid spraying deadly neurotoxins on your gerbil";
+r_tip[4] = "DO NOT GIVE A HAMSTER A PORTAL GUN!";
+r_tip[5] = "Refrain from sending a dog named Wheatley to the moon";
+r_tip[6] = "We have better customer service than Black Mesa!";
+r_tip[7] = "Consider getting a Companion Cube as your next pet";
+r_tip[8] = "Try an Aperture Science Counterproductive Canine Distribution Device";
