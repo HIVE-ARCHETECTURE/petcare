@@ -6,7 +6,7 @@ document.getElementById('logo').innerHTML = "<a href='index.html'><img src='http
 }
 
 function BobMarley(){
-document.getElementById('contactus').innerHTML = "<center><img src='http://lh5.ggpht.com/-VDfSbPYsJsg/UQlLdC9WqcI/AAAAAAAAOMY/hzgzDO5DWX4/s9000/Render%2B-%2BBob%2BMarley%2BBaixe%2BRenders.png'></p></center>";
+document.getElementById('contactus').innerHTML = "<center><img src='http://www.pixeljoint.com/files/icons/full/pjpa6924.gif'></p></center>";
 document.getElementById('contactus2').innerHTML = "<center><button class='submit' onclick='EnterMarleyville()'>Enter Marleyville</button></center>";
 document.getElementById('contactus3').innerHTML = "";
 document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
