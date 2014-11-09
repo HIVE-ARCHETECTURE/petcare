@@ -36,8 +36,8 @@ document.getElementById('all').innerHTML = "<iframe src='marley.html' style='pos
 
 var r_tip = new Array ();
 var i = Math.floor(9*Math.random())
-r_tip[0] = "Not to be confused with Aperture Pet Care";
-r_tip[1] = "Not to be confused with Aperture Pet Care"; //Intentional Duplicate
+r_tip[0] = "Not to be confused with Hive Pet Care";
+r_tip[1] = "Not to be confused with Aperture Science";
 r_tip[2] = "Do not name your dog GLaDOS";
 r_tip[3] = "Avoid spraying deadly neurotoxins on your gerbil";
 r_tip[4] = "DO NOT GIVE A HAMSTER A PORTAL GUN!";
