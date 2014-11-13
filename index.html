@@ -18,7 +18,9 @@
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
-    var easter_egg = new Konami('enterProxy()');
+    var easter_egg = new Konami();
+    easter_egg.code = EnterProxy();
+    easter_egg.load();
     </script>
 <!--light-box-->
 <script type="text/javascript" src="js/jquery.lightbox.js"></script>
