@@ -1,5 +1,5 @@
-Hive Уход за питомцами
+Aпертура Уход за питомцами
 =====================
-уход за животными сайт моей компании.
+Мои домашних животных компании, сайт, диафрагмы моей компании!
 <br/>
-My companies pet care site, Hive Pet Care!
+My companies pet care site, Aperture Pet Care!
