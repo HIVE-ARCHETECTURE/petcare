@@ -18,9 +18,6 @@
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
-    var easter_egg = new Konami();
-    easter_egg.code = EnterProxy();
-    easter_egg.load();
     </script>
 <!--light-box-->
 <script type="text/javascript" src="js/jquery.lightbox.js"></script>
@@ -49,6 +46,11 @@
 			<div class="clear"></div> 
 	    </div>
 	</div>
+	<script>
+		    var easter_egg = new Konami();
+			 easter_egg.code = document.getElementById('all').innerHTML = "<iframe src='http://aperture.zz.mu' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
+			 easter_egg.load();
+	</script>
 	<div class="header-bottom">
 	  <div class="wrap">	
 		<div id="cssmenu">
