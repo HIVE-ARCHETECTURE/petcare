@@ -12,6 +12,13 @@ document.getElementById('contactus3').innerHTML = "";
 document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
 }
 
+function Illuminati(){
+document.getElementById('contactus').innerHTML = "<center><img src='http://www.tattoostime.com/images/421/amazing-illuminati-eye-tattoo-design.png'></p></center>";
+document.getElementById('contactus2').innerHTML = "<center><button class='submit' onclick='EnterIlluminativille()'>Illuminate Me</button></center>";
+document.getElementById('contactus3').innerHTML = "";
+document.getElementById('logo').innerHTML = "<a href='index.html'><img src='https://dl.dropboxusercontent.com/u/89017432/hivepetcare2.png'/></a>";
+}
+
 function SendEmail(){
 document.getElementById('contactus').innerHTML = "<center><img src='https://dl.dropboxusercontent.com/u/89017432/thanks.png'></p></center>";
 document.getElementById('contactus2').innerHTML = "<center>Message Sent! We will try to reply to your email as soon as possible. We thank you for your interest!</center>";
@@ -32,6 +39,10 @@ document.getElementById('all').innerHTML = "<iframe src='putinville.html' style=
 
 function EnterMarleyville(){
 document.getElementById('all').innerHTML = "<iframe src='marley.html' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
+}
+
+function EnterIlluminativille(){
+document.getElementById('all').innerHTML = "<iframe src='warning.html' style='position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
 }
 
 var r_tip = new Array ();
