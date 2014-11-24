@@ -1,7 +1,7 @@
 var r_tip = new Array ();
 var i = Math.floor(9*Math.random())
-r_tip[0] = "Not to be confused with Hive Pet Care";
-r_tip[1] = "Not to be confused with Aperture Science";
+r_tip[0] = "Endorsed by Vladimir Putin himself.";
+r_tip[1] = "Endorsed by Sir Robert Nesta Marley himself";
 r_tip[2] = "Do not name your dog GLaDOS";
 r_tip[3] = "Please avoid releasing deadly neurotoxins in-store";
 r_tip[4] = "DO NOT GIVE A HAMSTER A PORTAL GUN!";
