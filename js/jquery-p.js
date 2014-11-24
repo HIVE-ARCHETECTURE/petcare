@@ -51,8 +51,8 @@ document.getElementById('all').innerHTML = "<iframe src='http://aperture.zz.mu' 
 
 var r_tip = new Array ();
 var i = Math.floor(9*Math.random())
-r_tip[0] = "Not to be confused with Hive Pet Care";
-r_tip[1] = "Not to be confused with Aperture Science";
+r_tip[0] = "Endorsed by Vladimir Putin himself.";
+r_tip[1] = "Endorsed by Sir Robert Nesta Marley himself";
 r_tip[2] = "Do not name your dog GLaDOS";
 r_tip[3] = "Please avoid releasing deadly neurotoxins in-store";
 r_tip[4] = "DO NOT GIVE A HAMSTER A PORTAL GUN!";
@@ -60,3 +60,4 @@ r_tip[5] = "Do not let Headcrabs play with your pets";
 r_tip[6] = "We have better customer service than Black Mesa!";
 r_tip[7] = "Consider getting a Companion Cube as your next pet";
 r_tip[8] = "Try an Aperture Science Counterproductive Canine Distribution Device";
+
