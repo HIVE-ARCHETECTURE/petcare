@@ -41,9 +41,6 @@ var startGame = function() {
   }  
   Game.setBoard(3,new TitleScreen("Aperture Defender", 
                                   "Press SPACE to Start Playing",
-								  "",
-								  "In Case of Implosion,",
-								  "Look Directly at Implosion",
                                   playGame));
 };
 
