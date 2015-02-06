@@ -1,5 +1,4 @@
-Aпертура Уход за питомцами
-=====================
-Мои домашних животных компании, сайт, диафрагмы моей компании!
-<br/>
-My companies pet care site, Aperture Pet Care!
+Aperture Pet Care
+==================
+
+We will do anything for your pets!
